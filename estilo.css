@@ -1,29 +1,28 @@
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 body {
     font-family: Arial, sans-serif;
     background-color: #eeeeee;
-    color: #222;
+    color: #222222;
 }
 
-/* TOPO */
 topo {
     display: block;
-    background-color: #222;
+    background-color: #222222;
     color: white;
     padding: 25px;
     text-align: center;
 }
 
-/* MENU */
+
 menu {
     display: block;
-    background-color: #444;
+    background-color: #444444;
     padding: 15px;
     text-align: center;
 }
@@ -39,19 +38,53 @@ menu a:hover {
     color: #00bfff;
 }
 
-/* CONTEÚDO */
+
 .container {
-    width: 90%;
-    max-width: 1000px;
+    width: 1000px;
     margin: 25px auto;
     background-color: white;
     padding: 25px;
     min-height: 400px;
 }
 
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    width: 1000px;
+}
+
+.col-9 {
+    width: 750px;
+}
+
+.col-8 {
+    width: 666px;
+}
+
+.col-6 {
+    width: 500px;
+}
+
+.col-4 {
+    width: 333px;
+}
+
+.col-3 {
+    width: 250px;
+}
+
+[class*="col-"] {
+    padding: 15px;
+}
+
+
 h2 {
     margin-bottom: 15px;
-    color: #333;
+    color: #333333;
 }
 
 h3 {
@@ -60,35 +93,35 @@ h3 {
 
 p {
     margin-bottom: 15px;
-    line-height: 1.6;
+    line-height: 25px;
 }
 
-/* IMAGENS */
+
 .imagem {
     background-color: #cccccc;
-    width: 100%;
-    height: auto;
-    margin: 15px 0;
-    border: 2px dashed #999;
+    width: 950px;
+    margin: 15px 0px;
+    border: 2px dashed #999999;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .imagem img {
-    width: 100%;
+    width: 946px;
     height: auto;
     object-fit: contain;
     display: block;
-    margin: 0;
 }
 
-/* RODAPÉ */
+
 rodape {
     display: block;
-    background-color: #222;
+    background-color: #222222;
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
 }
+
+
